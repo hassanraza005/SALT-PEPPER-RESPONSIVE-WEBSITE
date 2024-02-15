@@ -383,6 +383,7 @@ h3{
 #PKG-orderbtn, #emp-orderbtn, #gjrwla-orderbtn{
     display: flex;
     align-items: center;
+  
     justify-content: center; 
     padding: 0;
   margin-right: 350px;
@@ -503,6 +504,33 @@ border-color: #ffffff;
 
 .socialFeed-div{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.siteLink{
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+
+.contactUs{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.social-icon{
+    color: #ffa500;
+}
+
+.Developed-line{
+    display: flex;
     justify-content: space-around;
-    gap: 10px;
+    font-family:cursive ;
 }
